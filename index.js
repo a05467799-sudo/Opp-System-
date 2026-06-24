@@ -54,7 +54,7 @@ client.on('guildMemberAdd', async (member) => {
                 name: member.user.username,
                 iconURL: member.user.displayAvatarURL({ size: 1024 })
             })
-            .setTitle('Welcome to [DEVION STORE]')
+            .setTitle('Welcome to [opp]')
             .setDescription(`Welcome ${member} to the server 👋`)
             .addFields(
                 {
@@ -77,7 +77,7 @@ client.on('guildMemberAdd', async (member) => {
             .setImage(WELCOME_IMAGE)
             .setTimestamp()
             .setFooter({
-                text: 'Developed by NOS Store',
+                text: 'Developed by Mod',
                 iconURL: member.guild.iconURL()
             });
 
