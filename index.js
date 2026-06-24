@@ -16,7 +16,8 @@ const client = new Client({
 const WELCOME_CHANNEL = '1342954295603105874';
 const AUTO_ROLE = '1342955328379031612';
 
-const WELCOME_IMAGE = 'https://cdn.discordapp.com/banners/1460850736941502748/992ca26ea6277df426755da34fcd921b.png?size=1024';
+const WELCOME_IMAGE = "https://cdn.discordapp.com/banners/1460850736941502748/992ca26ea6277df426755da34fcd921b.png?size=1024";
+.setImage(WELCOME_IMAGE)
 
 client.once('clientReady', () => {
     console.log(`${client.user.tag} Online`);
