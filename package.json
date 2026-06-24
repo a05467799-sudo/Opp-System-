@@ -1,0 +1,15 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "Discord Welcome Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1"
+  }
+}
